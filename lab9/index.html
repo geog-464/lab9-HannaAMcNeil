@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>lab9</title>
+        
+		<!-- link to data -->
+		<script type="text/javascript" src="data/megacities.js"></script>
+		
+		<!-- link to leaflet styles -->
+		<link rel="stylesheet" type="text/css" href="lib/leaflet/leaflet.css" />
+		<!-- link to leaflet scripts -->
+		<script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
+		
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="css/styles.css">
+        
+		<!--you can also place internal styles here; you would place these within <style> tags-->
+    </head>
+
+    <body>
+        <!--put your initial page content here-->
+		<div id="div1">
+			This is inside basic html container
+			<p>This is text contained inside of a standard easily-stylable tag</p>
+			<p>2. The JS script is loaded at the end of the htlm file so that the rest of the webpage can load first <br>
+			and the user doesnt have to look at a blank screen while the js script loads.</p>
+			<p>3. The onload method loads the function only when the rest of the page has loaded, again to load the page faster <br>
+			(although I'm not sure this is nessisary if the JS script is already at the bottem of the html file and run at the end anyway ikd)</p>
+			<p>4. The variable cityPop is an object and it contains properties (strings and intergers) in a key-value pair format. <br>
+				cityPop looks like a python ditionary object and the key-value pair objects seem to be strings and integres</p>
+		</div>
+		<div id="mapdiv">
+		
+		</div>	
+        <!--you can also use this space for internal scripts; you would place these within <script> tags-->
+
+        <!--put your external script links here-->
+        <script type="text/javascript" src="js/main.js"></script>
+		
+    </body>
+</html>
